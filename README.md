@@ -32,6 +32,6 @@ To delete all the binary files and the output files, run `make clean`
 ## Helper scripts
 There are also some helper scripts.
 
-`average.sh` runs the program 30 times and calculates the average run time
-`doubleRunSeq` and `doubleRunPar` run the sequential or parallel programs respectively, as well as the sample program, under `reference/`
-`speedup.sh` calculates how much faster the paralell version of the code runs relative to the sequential version.
+- `average.sh` runs the program 30 times and calculates the average run time
+- `doubleRunSeq` and `doubleRunPar` run the sequential or parallel programs respectively, as well as the sample program, under `reference/`
+- `speedup.sh` calculates how much faster the paralell version of the code runs relative to the sequential version.
